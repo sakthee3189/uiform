@@ -1,0 +1,44 @@
+/* registrationForm.css */
+
+/* Style for the form container */
+.registration-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: aquamarine;
+  }
+  
+  /* Style for form labels */
+  .registration-form-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Style for form input fields */
+  .registration-form-container input[type="text"],
+  .registration-form-container input[type="email"],
+  .registration-form-container input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for form submit button */
+  .registration-form-container button[type="submit"] {
+    background-color: #1e5c9e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .registration-form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
